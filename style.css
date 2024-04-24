@@ -1,0 +1,167 @@
+.text-xs {
+  font-size: 12px !important;
+  line-height: 16px !important;
+}
+
+.text-sm {
+  font-size: 14px !important;
+  line-height: 20px !important;
+}
+
+.text-md {
+  font-size: 16px !important;
+  line-height: 24px !important;
+}
+
+.text-lg {
+  font-size: 18px !important;
+  line-height: 28px !important;
+}
+
+.text-xl {
+  font-size: 20px !important;
+  line-height: 28px !important;
+}
+
+.text-2xl {
+  font-size: 24px !important;
+  line-height: 32px !important;
+}
+
+.text-3xl {
+  font-size: 30px !important;
+  line-height: 36px !important;
+}
+
+.text-4xl {
+  font-size: 36px !important;
+  line-height: 40px !important;
+}
+
+.text-5xl {
+  font-size: 48px !important;
+}
+
+.text-6xl {
+  font-size: 60px !important;
+}
+
+.text-7xl {
+  font-size: 72px !important;
+}
+
+.text-8xl {
+  font-size: 96px !important;
+}
+
+.text-9xl {
+  font-size: 128px !important;
+}
+
+/* font weidth */
+
+.font-thin {
+  font-weight: 100 !important;
+}
+.font-extralight {
+  font-weight: 200 !important;
+}
+.font-light {
+  font-weight: 300 !important;
+}
+.font-normal {
+  font-weight: 400 !important;
+}
+.font-medium {
+  font-weight: 500 !important;
+}
+.font-semibold {
+  font-weight: 600 !important;
+}
+.font-bold {
+  font-weight: 700 !important;
+}
+.font-extrabold {
+  font-weight: 800v;
+}
+.font-black {
+  font-weight: 900 !important;
+}
+
+/* font ends here  */
+
+*{
+  font-family: "Plus Jakarta Sans", sans-serif!important;
+  color: #FFFFFF!important;
+}
+
+body{
+  background-color: #000000!important;
+
+}
+
+.text-orange{
+  color: #F5900D!important;
+}
+
+.text-hover-orange:hover{
+  color: #F5900D!important;
+}
+
+.text-grey{
+  color: #5D5D5D!important;
+}
+
+.button-orange{
+  background-color: #F5900D;
+  border:2px solid transparent;
+}
+
+.button-hover-orange:hover{
+  color: #F5900D!important;
+  background-color: rgb(209, 212, 212);
+  border:2px solid #F5900D!important;
+}
+
+.mt-10{
+  margin-top: 10rem;
+
+  @media (max-width:768px) {
+    margin-top: 5rem;
+  }
+}
+
+/* hero section  */
+
+.hero-wrapper{
+  background-image: url(/images/hero-image.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 100vh;
+  background-clip: border-box;
+@media (max-width:992px) {
+  background-size: cover;
+}
+}
+
+.hero-h1{
+  width: 660px;
+  font-size: 105px;
+  font-weight: 800;
+
+  @media (max-width:992px) {
+    font-size: 80px;
+    text-wrap: balance;
+    width: 100%;
+
+  }
+
+  @media (max-width:576px) {
+    font-size: 55px;
+  }
+}
+
+.vertical-rl {
+  writing-mode: vertical-lr;
+}
