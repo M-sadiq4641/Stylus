@@ -131,6 +131,10 @@ body{
   }
 }
 
+.cursor-pointer{
+  cursor: pointer;
+}
+
 /* hero section  */
 
 .hero-wrapper{
