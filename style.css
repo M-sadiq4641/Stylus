@@ -135,6 +135,10 @@ body{
   cursor: pointer;
 }
 
+.bg-light-black{
+  background-color: #101010;
+}
+
 /* hero section  */
 
 .hero-wrapper{
@@ -212,4 +216,30 @@ body{
   @media (max-width:576px) {
     height: 30vh;
   }
+}
+/* services section  */
+
+.services-h2{
+  width: 50%;
+@media (max-width:1400px) {
+  width: 80%;
+}
+
+  @media (max-width:992px) {
+    width: 90%;
+  }
+
+  @media (max-width:576px) {
+    font-size: 35px !important;
+  }
+}
+
+.services-p{
+  border-bottom: 1px solid grey;
+  padding-bottom: 2rem;
+  width: 180px;
+}
+
+.services-col{
+  min-height: 345px;
 }
