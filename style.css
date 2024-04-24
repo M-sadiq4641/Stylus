@@ -90,82 +90,80 @@
 
 /* font ends here  */
 
-*{
-  font-family: "Plus Jakarta Sans", sans-serif!important;
-  color: #FFFFFF!important;
+* {
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+  color: #ffffff !important;
 }
 
-body{
-  background-color: #000000!important;
-
+body {
+  background-color: #000000 !important;
 }
 
-.text-orange{
-  color: #F5900D!important;
+.text-orange {
+  color: #f5900d !important;
 }
 
-.text-hover-orange:hover{
-  color: #F5900D!important;
+.text-hover-orange:hover {
+  color: #f5900d !important;
 }
 
-.text-grey{
-  color: #5D5D5D!important;
+.text-grey {
+  color: #5d5d5d !important;
 }
 
-.button-orange{
-  background-color: #F5900D;
-  border:2px solid transparent;
+.button-orange {
+  background-color: #f5900d!important;
+  border: 2px solid transparent!important;
 }
 
-.button-hover-orange:hover{
-  color: #F5900D!important;
-  background-color: rgb(209, 212, 212);
-  border:2px solid #F5900D!important;
+.button-hover-orange:hover {
+  color: #f5900d !important;
+  background-color: rgb(209, 212, 212)!important;
+  border: 2px solid #f5900d !important;
 }
 
-.mt-10{
-  margin-top: 10rem!important;
+.mt-10 {
+  margin-top: 10rem !important;
 
-  @media (max-width:768px) {
-    margin-top: 5rem!important;
+  @media (max-width: 768px) {
+    margin-top: 5rem !important;
   }
 }
 
-.cursor-pointer{
+.cursor-pointer {
   cursor: pointer;
 }
 
-.bg-light-black{
+.bg-light-black {
   background-color: #101010;
 }
 
 /* hero section  */
 
-.hero-wrapper{
+.hero-wrapper {
   background-image: url(/images/hero-image.png);
   background-position: right;
   background-repeat: no-repeat;
   background-size: contain;
   min-height: 100vh;
   background-clip: border-box;
-@media (max-width:992px) {
-  background-size: cover;
-}
+  @media (max-width: 992px) {
+    background-size: cover;
+  }
 }
 
-.hero-h1{
+.hero-h1 {
   width: 660px;
   font-size: 105px;
   font-weight: 800;
 
-  @media (max-width:992px) {
+  @media (max-width: 992px) {
     font-size: 80px;
     text-wrap: balance;
     width: 100%;
-
   }
 
-  @media (max-width:576px) {
+  @media (max-width: 576px) {
     font-size: 55px;
   }
 }
@@ -177,69 +175,129 @@ body{
 
 /* seo section  */
 
-.seo-h2{
-  @media (max-width:576px) {
-    font-size: 35px!important;
+.seo-h2 {
+  @media (max-width: 576px) {
+    font-size: 35px !important;
   }
 }
 
 /* marquee section */
 
-.marquee-text{
+.marquee-text {
   font-size: 180px;
   font-weight: 800;
 
-  @media (max-width:992px) {
+  @media (max-width: 992px) {
     font-size: 100px;
   }
 
-   @media (max-width:576px) {
+  @media (max-width: 576px) {
     font-size: 70px;
   }
 }
 
 /* vedio section  */
 
-.vedio-wrapper{
+.vedio-wrapper {
   height: 100vh;
-  background-image: url(/public/images/vedio-bg.png);
+  background-image: url(/images/vedio-bg.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
 
-  @media (max-width:992px) {
+  @media (max-width: 992px) {
     height: 70vh;
   }
-  @media (max-width:768px) {
+  @media (max-width: 768px) {
     height: 50vh;
   }
-  @media (max-width:576px) {
+  @media (max-width: 576px) {
     height: 30vh;
   }
 }
 /* services section  */
 
-.services-h2{
+.services-h2 {
   width: 50%;
-@media (max-width:1400px) {
-  width: 80%;
-}
+  @media (max-width: 1400px) {
+    width: 80%;
+  }
 
-  @media (max-width:992px) {
+  @media (max-width: 992px) {
     width: 90%;
   }
 
-  @media (max-width:576px) {
+  @media (max-width: 576px) {
     font-size: 35px !important;
   }
 }
 
-.services-p{
+.services-p {
   border-bottom: 1px solid grey;
   padding-bottom: 2rem;
   width: 180px;
 }
 
-.services-col{
-  min-height: 345px;
+/* wade section  */
+
+.wade-wrapper {
+  background-image: url(/images/wade-b-g.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 70vh;
+}
+
+.wade-div{
+  min-height: 70vh;
+}
+.wade-p{
+  @media (max-width:576px) {
+    font-size: 20px!important;
+    line-height: normal!important;
+  }
+}
+
+/* latest section */
+
+.latest-h2{
+  
+  @media (max-width:576px) {
+    font-size: 35px!important;
+  }
+}
+
+/* footer section  */
+
+.footer-wrapper{
+  background-image: url(/public/images/footer-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 70vh;
+}
+
+.footer-hr{
+  border-bottom: 1px solid #5D5D5D;
+  width: 100%;
+}
+
+.footer-h2{
+
+  @media (max-width:1400px) {
+  word-break: break-all;
+    
+  }
+  @media (max-width:768px) {
+    font-size: 30px!important;
+
+  }
+}
+
+input{
+  color: black!important;
+}
+
+a{
+  text-decoration: none!important;
 }
