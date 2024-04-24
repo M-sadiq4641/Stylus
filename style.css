@@ -39,7 +39,7 @@
 }
 
 .text-5xl {
-  font-size: 48px !important;
+  font-size: 50px !important;
 }
 
 .text-6xl {
@@ -124,10 +124,10 @@ body{
 }
 
 .mt-10{
-  margin-top: 10rem;
+  margin-top: 10rem!important;
 
   @media (max-width:768px) {
-    margin-top: 5rem;
+    margin-top: 5rem!important;
   }
 }
 
@@ -166,6 +166,15 @@ body{
   }
 }
 
+/* creative section  */
 .vertical-rl {
   writing-mode: vertical-lr;
+}
+
+/* seo section  */
+
+.seo-h2{
+  @media (max-width:576px) {
+    font-size: 35px!important;
+  }
 }
