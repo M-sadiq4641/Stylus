@@ -112,13 +112,13 @@ body {
 }
 
 .button-orange {
-  background-color: #f5900d!important;
-  border: 2px solid transparent!important;
+  background-color: #f5900d !important;
+  border: 2px solid transparent !important;
 }
 
 .button-hover-orange:hover {
   color: #f5900d !important;
-  background-color: rgb(209, 212, 212)!important;
+  background-color: rgb(209, 212, 212) !important;
   border: 2px solid #f5900d !important;
 }
 
@@ -248,56 +248,52 @@ body {
   min-height: 70vh;
 }
 
-.wade-div{
+.wade-div {
   min-height: 70vh;
 }
-.wade-p{
-  @media (max-width:576px) {
-    font-size: 20px!important;
-    line-height: normal!important;
+.wade-p {
+  @media (max-width: 576px) {
+    font-size: 20px !important;
+    line-height: normal !important;
   }
 }
 
 /* latest section */
 
-.latest-h2{
-  
-  @media (max-width:576px) {
-    font-size: 35px!important;
+.latest-h2 {
+  @media (max-width: 576px) {
+    font-size: 35px !important;
   }
 }
 
 /* footer section  */
 
-.footer-wrapper{
-  background-image: url(/public/images/footer-bg.png);
+.footer-wrapper {
+  background-image: url(/images/footer-bg.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 70vh;
 }
 
-.footer-hr{
-  border-bottom: 1px solid #5D5D5D;
+.footer-hr {
+  border-bottom: 1px solid #5d5d5d;
   width: 100%;
 }
 
-.footer-h2{
-
-  @media (max-width:1400px) {
-  word-break: break-all;
-    
+.footer-h2 {
+  @media (max-width: 1400px) {
+    word-break: break-all;
   }
-  @media (max-width:768px) {
-    font-size: 30px!important;
-
+  @media (max-width: 768px) {
+    font-size: 30px !important;
   }
 }
 
-input{
-  color: black!important;
+input {
+  color: black !important;
 }
 
-a{
-  text-decoration: none!important;
+a {
+  text-decoration: none !important;
 }
